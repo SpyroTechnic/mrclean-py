@@ -20,3 +20,6 @@ license = { file = "LICENSE" }
 [project.urls]
 Homepage = "https://github.com/SpyroTechnic/mrclean-py"
 Issues = "https://github.com/SpyroTechnic/mrclean-py/issues"
+
+[project.scripts]
+mrclean-py = "mrclean_py.main:main"
