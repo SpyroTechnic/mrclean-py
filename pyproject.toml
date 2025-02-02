@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mrclean-py"
+version = "0.0.1"
+authors = [
+  { name="Matthias Laithier", email="matthias.laithier@gmail.com" },
+]
+description = "mrclean comes to help you setup your Python projects"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
+
+[project.urls]
+Homepage = "https://github.com/SpyroTechnic/mrclean-py"
+Issues = "https://github.com/SpyroTechnic/mrclean-py/issues"
