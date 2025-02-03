@@ -1,0 +1,11 @@
+name: mrclean-py
+channels:
+  - conda-forge
+dependencies:
+  - python =3.12
+  - setuptools >=61.0
+  - ruff
+  - pyyaml
+  - pip
+  - pip:
+    - build
